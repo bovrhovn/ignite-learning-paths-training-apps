@@ -17,10 +17,10 @@ trigger:
 variables:
 
   # resource group
-  resourceGroup: 'igniteapps30'
+  resourceGroup: 'TailwindRG'
 
   # location
-  location: 'eastus'
+  location: 'westeurope'
 
   # subscription name
   subName: 'Ignite The Tour'
@@ -32,7 +32,7 @@ variables:
   sqldbName: 'apps30twtsql'
 
   # acr name
-  acrName: 'igniteapps30acr'
+  acrName: 'apps30acr'
 
 pool:
   vmImage: 'ubuntu-latest'
